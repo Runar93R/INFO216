@@ -15,7 +15,7 @@ import nb_core_news_sm
 from tqdm import tqdm_notebook as tqdm
 from pprint import pprint
 
-nrk = pd.read_csv('include/nrk.csv', sep='\t', skiprows=0, header=0)
+nrk = pd.read_csv('include/nrk.csv', sep='\t', header=0)
 newest_doc = nrk['content']
 
 nlp = spacy.load("nb_core_news_sm")
