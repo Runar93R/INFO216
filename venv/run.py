@@ -8,7 +8,7 @@ from gensim.models import CoherenceModel
 
 import spacy
 from spacy.lemmatizer import Lemmatizer
-from spacy.lang.en.stop_words import STOP_WORDS
+from spacy.lang.nb.stop_words import STOP_WORDS
 # importer norskspråkelig modul i spacy
 import nb_core_news_sm
 
